@@ -7,11 +7,11 @@ public class IntRepresentation {
         char a = 'a';
         char r = 'r';
 
-//        int first = c;
-//        int second = h;
-//        int third = a;
-//        int four = r;
+        int first = c;
+        int second = h;
+        int third = a;
+        int four = r;
 
-        System.out.println((int) c + " " + (int) h + " " + (int) a + " " + (int) r);
+        System.out.println(first + " " + second + " " + third + " " + four);
     }
 }
