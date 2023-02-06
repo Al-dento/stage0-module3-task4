@@ -4,7 +4,8 @@ public class FormulaCreator {
     public static void main(String[] args) {
         int a = 2;
         int b = 4;
-        int result = (9 * (a * a) - 5 * b + 2 + a - 7) * ((a + b - 4 + a + b) / 2);
-        System.out.println(result);
+        int x = (9 * (a * a)) - (5 * b) + 2 + a - 7;
+        int y = a + b - 4 + a + b;
+        System.out.println((x) * (y / 2));
     }
 }
